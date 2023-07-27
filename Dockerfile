@@ -4,6 +4,9 @@ FROM node:18
 # Set the working directory inside the container
 WORKDIR /app
 
+# Install WebSocket
+RUN npm install ws
+
 # Copy the WebSocket client code to the container
 COPY app.js .
 

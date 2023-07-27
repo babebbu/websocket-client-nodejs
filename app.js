@@ -1,7 +1,7 @@
 const WebSocket = require('ws');
 
 // Replace 'ws://your-websocket-server-url' with the actual WebSocket server URL
-const webSocketUrl = 'ws://172.16.10.188:8080/ws/app/status-annouuncement';
+const webSocketUrl = 'ws://172.16.10.188:8080/ws/app/status-announcement';
 
 const ws = new WebSocket(webSocketUrl);
 
